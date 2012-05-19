@@ -1,0 +1,40 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Fri May 18 23:35:14 -0400 2012
+Served asset /rails.png - 304 Not Modified (3ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at Sat May 19 00:21:41 -0400 2012
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Compiled static_pages.css  (4ms)  (pid 20445)
+Compiled application.css  (11ms)  (pid 20445)
+Compiled jquery.js  (3ms)  (pid 20445)
+Compiled jquery_ujs.js  (0ms)  (pid 20445)
+Compiled static_pages.js  (536ms)  (pid 20445)
+Compiled application.js  (663ms)  (pid 20445)
+Completed 200 OK in 710ms (Views: 709.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at Sat May 19 00:21:41 -0400 2012
+Served asset /static_pages.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sat May 19 00:21:42 -0400 2012
+Served asset /application.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sat May 19 00:21:42 -0400 2012
+Served asset /jquery.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Sat May 19 00:21:42 -0400 2012
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sat May 19 00:21:42 -0400 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sat May 19 00:21:42 -0400 2012
+Served asset /application.js - 304 Not Modified (7ms)
